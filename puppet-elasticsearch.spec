@@ -11,7 +11,7 @@ Source0:        https://github.com/elastic/puppet-elasticsearch/archive/%{versio
 BuildArch:      noarch
 
 Requires:       puppet-stdlib
-Requires:       puppet-apt
+#Requires:       puppet-apt
 Requires:       puppet-yum
 Requires:       puppet-datacat
 Requires:       puppet >= 2.7.0
