@@ -7,8 +7,8 @@
 
 
 Name:           puppet-elasticsearch
-Version:        XXX
-Release:        XXX
+Version:        0.13.2
+Release:        1%{?alphatag}%{?dist}
 Summary:        Module for managing and configuring Elasticsearch nodes
 License:        Apache-2.0
 
@@ -52,4 +52,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/elasticsearch/
 
 
 %changelog
+* Fri Sep 23 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.13.2-1.a93350b.git
+- Newton update 0.13.2 (a93350b4b13ad5c8f795c67a3ca3046a88cdf25a)
+
 
