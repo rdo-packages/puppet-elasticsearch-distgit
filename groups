@@ -1,6 +1,6 @@
 # UUID                                  	Group Name
 #
 59238edfdd6c34fdc5707b1cb89c046468ed7b40	puppet/puppet-elasticsearch-distgit-core
-9b035d92e2630dae2e1988ee44fbbdf46029719f	puppet/puppet-elasticsearch-distgit-ptl
 63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
+9b035d92e2630dae2e1988ee44fbbdf46029719f	puppet/puppet-elasticsearch-distgit-ptl
 global:Registered-Users                 	Registered Users
