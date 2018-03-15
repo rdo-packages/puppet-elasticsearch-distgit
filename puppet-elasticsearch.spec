@@ -54,3 +54,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/elasticsearch/
 %changelog
 
 
+# REMOVEME: error caused by commit https://github.com/elastic/puppet-elasticsearch/commit/02c011e923e0c3e6eaf87ab28bf0c2248ecd8a70
