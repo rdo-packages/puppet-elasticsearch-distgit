@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-elasticsearch
-%global commit a93350b4b13ad5c8f795c67a3ca3046a88cdf25a
+%global commit 835e67991f47b1cf089b3e7254c48d8c6f49b08c
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-elasticsearch
-Version:        XXX
-Release:        XXX
+Version:        6.3.3
+Release:        1%{?alphatag}%{?dist}
 Summary:        Module for managing and configuring Elasticsearch nodes
 License:        ASL 2.0
 
@@ -52,5 +52,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/elasticsearch/
 
 
 %changelog
+* Thu Feb 15 2018 RDO <dev@lists.rdoproject.org> 6.3.3-1.835e679git
+- Update to post 6.3.3 (835e67991f47b1cf089b3e7254c48d8c6f49b08c)
+
 
 
