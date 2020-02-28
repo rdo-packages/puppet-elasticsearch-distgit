@@ -56,4 +56,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/elasticsearch/
 - Update to post 6.4.0 (725afd6ccaa7707b387428d5cddf2ecbc8311d2c)
 
 
-
